@@ -122,5 +122,10 @@ console.log(anotherCar, myCar);
 
 
 
-const propertyName = ['username'];
+const propertyName = 'username';
+
+const userProfile = {
+  [propertyName]: 'name@email.com'
+};
+console.log(userProfile);
 
