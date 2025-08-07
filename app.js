@@ -75,6 +75,52 @@ const morePizzaToppings = ['Cheese', 'Sauce'];
 
 // Your code here:
 
-const uncontroversialPizzaToppings = [Cheese, Sauce];
+const uncontroversialPizzaToppings = [...morePizzaToppings];
 console.log(uncontroversialPizzaToppings);
+
+
+
+
+// ! Exercise 5:
+// a. Duplicate the provided `anotherCar` object and spread its values into a 
+//    new variable named `myCar`.
+//
+// b. Change the `make` and `model` properties of the `myCar` object to new 
+//    values.
+//
+// c. Console log both objects and observe the results.
+//
+// Starting code (don't modify this):
+
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
+
+// Your code here:
+
+const myCar = { ...anotherCar };
+myCar.make = 'Honda';
+myCar.model = 'Civic';
+
+console.log(anotherCar, myCar);
+
+
+
+// ! Exercise 6:
+// a. Define a variable named `propertyName` and assign a string (like 
+//    'username', 'age', or 'email') to it.
+// 
+// b. Create an object named `userProfile`. 
+// 
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+//
+// Your code here:
+
+
+
+const propertyName = ['username'];
 
